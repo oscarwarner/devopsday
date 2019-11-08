@@ -11,5 +11,5 @@ with request.urlopen(req) as r:
 title = data.title.string
 print(title)
 
-with open(r'/data/scraprtitles.txt','a') as f:
+with open('scraprtitles.txt','a') as f:
     f.write(title)
